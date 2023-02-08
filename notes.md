@@ -12,7 +12,7 @@ tsc --init
 
 ```sh
 # dependencies
-yarn add @prisma/client fastify fastify-zod zod zod-to-json-schema fastify-jwt fastify-swagger
+yarn add @prisma/client@^3.10.0 fastify@^3.27.2 fastify-zod@^0.0.2 zod zod-to-json-schema fastify-jwt fastify-swagger@^4.15.0
 ```
 
 ```sh
