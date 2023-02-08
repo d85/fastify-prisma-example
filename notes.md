@@ -29,3 +29,5 @@ npx prisma init --datasource-provider postgresql
 # migrate the schema
 npx prisma migrate dev --name init
 ```
+
+Regarding Fastify, docker expects your host to be `0.0.0.0`.
